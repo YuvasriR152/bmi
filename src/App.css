@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", "Arial", sans-serif;
+}
+
+.app-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;              /* Added this */
+  flex-direction: column;     /* Optional, for stacking inputs vertically */
+  justify-content: center;
+  align-items: center;
+  background-color:black;
+  color:cyan;
+  padding: 20px;
+}
+.height{
+  font-weight:600;
+  font-sie:20px;
+  margin:10px;
+  padding:10px;
+  display:block;
+}
+.weight{
+  font-weight:600;
+  font-sie:20px;
+  margin:10px;
+  padding:10px;
+  display:block;
+}
+.inputlabel{
+  width:100%;
+  margin:10px;
+  padding:5px;
+  box-shadow:0 0 0 10px white
+}
+.calc{
+  margin:15px;
+  padding:10px;
+  color:cyan;
+  font-weight:600;
+  font-size:20px;
+  border-radius:10px;
+ 
+}
+.calc:hover{
+  color:white;
+  background:green;
+}
+.head{
+  color:cyan;
+  font-weight:800;
+  font-size:30px;
+}
